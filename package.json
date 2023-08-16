@@ -1,0 +1,29 @@
+{
+  "name": "bot_cs_mix",
+  "version": "1.0.0",
+  "description": "1. Eventos: No diretório events/, crie arquivos para lidar com eventos básicos do bot, como a inicialização (ready.js) e a recepção de mensagens (message.js).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleygurgel/bot_cs_mix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleygurgel/bot_cs_mix/issues"
+  },
+  "homepage": "https://github.com/wesleygurgel/bot_cs_mix#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "pg": "^8.11.2",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
