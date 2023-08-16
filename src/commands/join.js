@@ -23,7 +23,7 @@ module.exports = {
             });
 
             if (isInQueue) {
-                message.reply("Você já está na fila! Para ver a fila digite `!fila`.");
+                message.reply("Você já está na fila! Para ver a fila digite `.fila`.");
                 return;
             }
 
@@ -33,7 +33,7 @@ module.exports = {
                 status: "qualquer",
             });
 
-            message.reply("Você entrou na fila! Para ver a fila digite `!fila`.");
+            message.reply("Você entrou na fila! Para ver a fila digite `.fila`.");
         } catch (error) {
             console.error(error);
             message.reply(

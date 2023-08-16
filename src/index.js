@@ -45,7 +45,7 @@ for (const file of eventFiles) {
 // Processar mensagens
 client.on("message", (message) => {
     console.log('entrei aqui no nosso listener')
-    if (!message.content.startsWith("!") || message.author.bot) return;
+    if (!message.content.startsWith(".") || message.author.bot) return;
 
     const args = message.content.slice(1).trim().split(/ +/);
     const command = args.shift().toLowerCase();
