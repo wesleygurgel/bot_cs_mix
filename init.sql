@@ -6,7 +6,7 @@ CREATE TABLE players (
 
 CREATE TABLE queue (
     queue_id SERIAL PRIMARY KEY,
-    player_id INT UNIQUE REFERENCES players(player_id),
+    player_id INT UNIQUE REFERENCES players(player_id)
 );
 
 SET TIME ZONE 'UTC+3';
